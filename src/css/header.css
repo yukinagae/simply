@@ -1,0 +1,50 @@
+.masthead {
+    text-align: left;
+    background-color: #4078c0;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+@media (min-width: 34em) {
+.masthead .masthead-logo {
+    float: left;
+}}
+
+.masthead .masthead-logo {
+    display: inline-block;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.masthead .masthead-logo .masthead-logo-icon {
+    float: left;
+    margin-right: .5rem;
+}
+
+@media (min-width: 34em) {
+.masthead-nav {
+    float: right;
+    margin-top: .5rem;
+}}
+
+.masthead-nav {
+    font-size: 1rem;
+}
+
+.masthead-nav a {
+    display: inline-block;
+}
+
+.masthead-nav a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.masthead-nav a:not(:last-child) {
+    margin-right: 1.25rem;
+}
+
+.masthead a {
+    color: rgba(255,255,255,0.5);
+}
