@@ -5,18 +5,18 @@ var path = require('path');
 var webpack = require('webpack');
 var CopyWebpackPlugin = require('copy-webpack-plugin');
 
-var dir_js = path.resolve(__dirname, 'js');
-var dir_html = path.resolve(__dirname, 'html');
-var dir_build = path.resolve(__dirname, 'build');
+var dir_js = path.resolve(__dirname, 'src/js');
+var dir_html = path.resolve(__dirname, 'src');
+var dir_dist = path.resolve(__dirname, 'dist');
 
 module.exports = {
     entry: path.resolve(dir_js, 'main.jsx'),
     output: {
-        path: dir_build,
-        filename: 'bundle.js'
+        path: dir_dist,
+        filename: 'app.js'
     },
     devServer: {
-        contentBase: dir_build,
+        contentBase: dir_dist,
     },
     module: {
         loaders: [

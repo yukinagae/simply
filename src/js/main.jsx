@@ -11,4 +11,4 @@ class Main extends React.Component {
 
 }
 
-render(<Main/>, document.getElementById('main'));
+render(<Main/>, document.getElementById('app'));
