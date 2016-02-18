@@ -10,7 +10,7 @@ var dir_html = path.resolve(__dirname, 'src');
 var dir_dist = path.resolve(__dirname, 'dist');
 
 module.exports = {
-    entry: path.resolve(dir_js, 'main.jsx'),
+    entry: path.resolve(dir_js, 'app.jsx'),
     output: {
         path: dir_dist,
         filename: 'app.js'

@@ -20,7 +20,8 @@
     "style-loader": "^0.13.0",
     "css-loader": "^0.23.0",
     "url-loader": "^0.5.6",
-    "file-loader": "^0.8.4"
+    "file-loader": "^0.8.4",
+    "react-router": "*"
   },
   "dependencies": {
     "react": "^0.14.2",

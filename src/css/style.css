@@ -7,3 +7,10 @@ body {
     background-color: #fff;
     font-size: 1rem;
 }
+
+.container {
+    width: auto;
+    max-width: 1020px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
