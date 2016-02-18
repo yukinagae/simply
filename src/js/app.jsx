@@ -3,37 +3,16 @@ import { render } from 'react-dom';
 
 import { Router, Route, IndexRoute, Link, browserHistory } from 'react-router';
 
+// components
 import Header from './header.jsx';
 import Footer from './footer.jsx';
-import Lead from './lead.jsx';
-
-class Home extends React.Component {
-
-    render() {
-        return <div>
-            <Lead />
-            <div className="container">
-                <div className="columns">
-                    <div className="one-third column">
-                        <h2>What?</h2>
-                        <p>TODO what is 'Simply'?</p>
-                    </div>
-                    <div className="one-third column">
-                        <h2>Why?</h2>
-                        <p>TODO why 'Simply'?</p>
-                    </div>
-                    <div className="one-third column">
-                        <h2>How?</h2>
-                        <p>TODO how 'Simply' works?</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    }
-}
+import Home from './home.jsx';
+import About from './about.jsx';
+import Install from './install.jsx';
+import Docs from './docs.jsx';
 
 class App extends React.Component {
-
+    
     render() {
         return <div>
             <Header />
@@ -44,30 +23,6 @@ class App extends React.Component {
         </div>
     }
 
-}
-
-class About extends React.Component {
-    render() {
-        return <div className="container">
-            <h1>About</h1>
-        </div>
-    }
-}
-
-class Install extends React.Component {
-    render() {
-        return <div className="container">
-            <h1>Install</h1>
-        </div>
-    }
-}
-
-class Docs extends React.Component {
-    render() {
-        return <div className="container">
-            <h1>Docs</h1>
-        </div>
-    }
 }
 
 render((
