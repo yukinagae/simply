@@ -17,6 +17,7 @@ module.exports = {
     },
     devServer: {
         contentBase: dir_dist,
+        historyApiFallback: true,
     },
     module: {
         loaders: [
